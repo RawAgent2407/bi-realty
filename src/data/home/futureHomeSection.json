@@ -1,0 +1,45 @@
+{
+  "title": "Step Inside, Virtually",
+  "subtitle": "Seamlessly Accessible.",
+  "description": "Experience our developments like never before. Walk through townships, view amenities, and get a real sense of space — all from the comfort of your screen, anytime and anywhere.",
+  "description2": "Connectivity is everything. That’s why every BI Realty project is placed with foresight — near expressways, metro lines, and future infrastructure zones. You're not just buying land. You're buying tomorrow's center.",
+  "features": [
+    {
+      "id": 1,
+      "title": "Smart Technology",
+      "description": "Integrated home automation systems"
+    },
+    {
+      "id": 2,
+      "title": "Sustainable Design",
+      "description": "Eco-friendly materials and energy efficiency"
+    },
+    {
+      "id": 3,
+      "title": "Prime Location",
+      "description": "Strategic positioning in growth corridors"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "ABCD Building",
+      "description": "Strategically located near the ABCD Building - epicenter of governance",
+      "image": "/images/photos/home/sc/abcd.jpeg"
+    },
+    {
+      "name": "Doholera Trade Center",
+      "description": "Ideally located near Dholera Trade Center—hub for commerce, and business activities",
+      "image": "/images/photos/home/sc/dtc.jpeg"
+    },
+    {
+      "name": "Lothal",
+      "description": "Near Lothal where history meets opportunity with upcoming maritime museum and tourism.",
+      "image": "/images/photos/home/sc/lothal.jpeg"
+    },
+    {
+      "name": "DMIC",
+      "description": "Close to DMIC—India’s mega corridor powering industry, logistics, and international trade links.",
+      "image": "/images/photos/home/sc/dmic.jpeg"
+    }
+  ]
+}

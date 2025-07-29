@@ -1,0 +1,72 @@
+{
+  "logo": {
+    "text": "Build India",
+    "image": "https://raw.githubusercontent.com/KHUNTPRIYANSH/site_photos/refs/heads/main/bi-reality/react.svg"
+  },
+  "menuItems": [
+    {
+      "id": 1,
+      "title": "Home",
+      "url": "/",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "title": "About",
+      "url": "/about",
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "title": "Projects",
+      "url": "/projects",
+      "isActive": false
+    },
+    {
+      "id": 4,
+      "title": "Blog",
+      "url": "/blog",
+      "isActive": false
+    }
+  ],
+  "ctaButton": {
+    "text": "Take A Virtual Tour",
+    "url": "https://buildindiagroup.co.in/#/login"
+  },
+  "mobileMenu": {
+    "toggleText": "Menu",
+    "closeText": "Close"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "image": "/images/photos/home/2.jpeg",
+      "title": "Rajpath Grand",
+      "location": "Dholera",
+      "price": "₹ 4.3-8.5Cr",
+      "link": "Internal Connectivity",
+      "overlayText": "Office Space",
+      "url": "/projects/rajpath-grand"
+    },
+    {
+      "id": 2,
+      "image": "/images/photos/home/1.jpeg",
+      "title": "Rajpath Enclave",
+      "location": "Dholera",
+      "price": "₹ 4.3-8.5Cr",
+      "link": "Ease Of Governance",
+      "overlayText": "Rajpath Enclave",
+      "url": "/projects/rajpath-enclave"
+    },
+    {
+      "id": 3,
+      "image": "/images/photos/home/3.jpeg",
+      "title": "Green City",
+      "location": "Dholera",
+      "price": "₹ 3.8-7.2Cr",
+      "link": "Modern Amenities",
+      "overlayText": "Premium Residences",
+      "url": "/projects/green-city"
+    }
+  ]
+}

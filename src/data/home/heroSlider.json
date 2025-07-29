@@ -1,0 +1,28 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "title": "Invest in the Vision,\n Design the Future.",
+      "subtitle": "Secure your space in Gujarat’s smartest investment destinations-future begins here.",
+      "image": "/images/photos/home/2.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Craft the Future with Build India Realty.",
+      "subtitle": "We deliver smart plots in emerging hubs—designed for tomorrow, ready today.",
+      "image": "/images/photos/home/1.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Empower Vision, Unlock What’s Ahead",
+      "subtitle": "Discover growth opportunities where innovation meets infrastructure in Gujarat’s hotspots.",
+      "image": "/images/photos/home/3.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Own with pride with Build India Realty.",
+      "subtitle": "Your plot, your legacy—own future-ready land with confidence and credibility.",
+      "image": "/images/photos/home/4.jpeg"
+    }
+  ]
+}
