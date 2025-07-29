@@ -18,7 +18,6 @@ import visionData from '../../data/projects/visionSection.json'
 import tabsData from '../../data/projects/tabsSection.json'
 import bigImgData from '../../data/projects/bigImgSection.json'
 import futureHomeData from '../../data/projects/futureHomeSection.json'
-import futureHomeData2 from '../../data/projects/futureHomeSection2.json'
 import bigVideoData from '../../data/projects/bigVideoSection.json'
 import navData from '../../data/shared/nav.json'
 import AmenitiesSection from '../../components/AmenitiesSection'
@@ -40,11 +39,9 @@ function Projects() {
       <ImpactSection data={impactData} />
       <VisionSection data={visionData} />
       <TabsSection data={tabsData} />
-      {/* <BigImgSection data={bigImgData} /> */}
       <AmenitiesSection />
       <div className="lg:my-10">
         <FutureHomeSectionProject data={futureHomeData} />
-        {/* <FutureHomeSection data={futureHomeData2} /> */}
       </div>
       <BigVideoSection data={bigVideoData} />
       <section

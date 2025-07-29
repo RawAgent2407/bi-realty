@@ -29,7 +29,7 @@ const LocationSection = ({ data }) => {
               </div>
             </div>
             <div>
-              <div className="text-[2.5rem] leading-[3rem] text-gray-900 font-medium">
+              <div className="text-[2.5rem] leading-[3rem] text-gray-900 font-weight-regular">
                 {stats[1]?.number || '500+'}
               </div>
               <div className="text-[1rem] text-gray-900 font-[Onest] font-medium">

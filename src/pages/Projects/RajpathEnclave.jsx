@@ -15,11 +15,9 @@ import impactData from '../../data/RajpathEnclave/impactSection.json'
 import visionData from '../../data/RajpathEnclave/visionSection.json'
 import tabsData from '../../data/RajpathEnclave/tabsSection.json'
 import futureHomeData from '../../data/RajpathEnclave/futureHomeSection.json'
-import futureHomeData2 from '../../data/RajpathEnclave/futureHomeSection2.json'
 import bigVideoData from '../../data/RajpathEnclave/bigVideoSection.json'
 import navData from '../../data/shared/nav.json'
 import AmenitiesSection from '../../components/AmenitiesSection'
-import BigImgSection from '../../components/BigImgSection/BigImgSection'
 
 function RajpathEnclave() {
   return (
@@ -42,7 +40,6 @@ function RajpathEnclave() {
       <AmenitiesSection />
       <div className="lg:my-10">
         <FutureHomeSectionProject data={futureHomeData} />
-        {/* <FutureHomeSection data={futureHomeData2} /> */}
       </div>
       <BigVideoSection data={bigVideoData} />
       <section

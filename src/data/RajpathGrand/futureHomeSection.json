@@ -1,45 +1,15 @@
 {
-  "title": "Hello",
-  "subtitle": "The Next Chapter Begins",
-  "description": "Phase 1 introduced plotted living backed by smart planning, trust, and rapid value appreciation — now home to a vibrant neighborhood.",
-  "description2": "With upgraded infrastructure, enhanced amenities, and new plots, Phase 2 invites you to be part of a future-ready community.",
-  "features": [
+  "sections": [
     {
       "id": 1,
-      "title": "Smart Technology",
-      "description": "Integrated home automation systems",
+      "title": "Milestones that Matter",
+      "description": "Phase 1 laid the groundwork with premium plots, modern infrastructure, and strong returns — now home to a flourishing neighborhood.",
       "image": "https://raw.githubusercontent.com/KHUNTPRIYANSH/site_photos/refs/heads/main/bi-reality/final-bi-imgs/project/phase-1.jpg"
     },
     {
       "id": 2,
-      "title": "Sustainable Design",
-      "description": "Eco-friendly materials and energy efficiency"
-    },
-    {
-      "id": 3,
-      "title": "Prime Location",
-      "description": "Strategic positioning in growth corridors"
-    }
-  ],
-  "tabs": [
-    {
-      "name": "Corporate Building ...........",
-      "description": "At The Heart Of Dholera’s Emerging Business Zone",
-      "image": "https://raw.githubusercontent.com/KHUNTPRIYANSH/site_photos/refs/heads/main/bi-reality/hero-slide-1.png"
-    },
-    {
-      "name": "International Airport",
-      "description": "Global Gateway Just Minutes From Your Plot",
-      "image": "https://raw.githubusercontent.com/KHUNTPRIYANSH/site_photos/refs/heads/main/bi-reality/hero-slide-2.png"
-    },
-    {
-      "name": "Solar Park",
-      "description": "Near India’s Largest Renewable Energy Hub.",
-      "image": "https://raw.githubusercontent.com/KHUNTPRIYANSH/site_photos/refs/heads/main/bi-reality/vision.png"
-    },
-    {
-      "name": "6-Lane Expressway & Monorail",
-      "description": "Seamless High-Speed Links To Major Corridors",
+      "title": "The Next Chapter Begins",
+      "description": "With smarter utilities, enhanced lifestyle features, and newly launched plots, Phase 2 welcomes you to be part of the Dholera dream — reimagined.",
       "image": "https://raw.githubusercontent.com/KHUNTPRIYANSH/site_photos/refs/heads/main/bi-reality/hero-slide-1.png"
     }
   ]

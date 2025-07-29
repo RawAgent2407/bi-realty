@@ -1,21 +1,23 @@
 import React, { useState } from 'react'
 import 'keen-slider/keen-slider.min.css'
-import { KeenSliderPlugin, useKeenSlider } from 'keen-slider/react'
+import { useKeenSlider } from 'keen-slider/react'
 import Button from '../Button'
 import './ExploreSlider.css'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useLocation } from 'react-router-dom'
 
 const ExploreSlider = ({ data }) => {
   const { projects } = data
   const [currentSlide, setCurrentSlide] = useState(0)
   const navigate = useNavigate()
-  
+  const location = useLocation()
+
   // Map project titles to their respective routes
   const projectRoutes = {
     'Rajpath Enclave': '/projects/rajpath-enclave',
     'Rajpath Grand': '/projects/rajpath-grand',
     'Green City': '/projects/green-city'
   }
+
   const [sliderRef, instanceRef] = useKeenSlider({
     slides: {
       perView: 1.1,
@@ -29,15 +31,14 @@ const ExploreSlider = ({ data }) => {
         slides: { perView: 1.5, spacing: 36 },
       },
     },
-    mode: 'snap', // snap mode ensures clean slide snapping
-    rubberband: false, // prevents dragging beyond first/last
-    loop: false, // don't loop for now; fix clean slide access
+    mode: 'snap',
+    rubberband: false,
+    loop: false,
     slideChanged(slider) {
       setCurrentSlide(slider.track.details.rel)
     },
-  })  
+  })
 
-  // For pagination click
   const goToSlide = (idx) => {
     if (instanceRef.current) {
       instanceRef.current.moveToIdx(idx)
@@ -45,8 +46,11 @@ const ExploreSlider = ({ data }) => {
   }
 
   return (
-    <div className="w-full  lg:pr-0 py-10 px-[6.5rem] explore-slider">
-      {/* Keen Slider component replaces Swiper */}
+    <div
+      className={`w-full lg:pr-0 py-10 ${
+        location.pathname === '/' ? '' : 'px-[6.5rem]'
+      } explore-slider`}
+    >
       <div ref={sliderRef} className="keen-slider swiper-fix">
         {projects.map((item, idx) => (
           <div
@@ -85,20 +89,20 @@ const ExploreSlider = ({ data }) => {
                   {item.subtitle}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-[0.75rem] mt-2 mob:flex-row mob:gap-[0.5rem] mob:mt-1 lg:w-fit">
-                <Button
-                  variant="dark"
-                  className="shadow-md lg:min-w-[180px] sm:flex-1 lg:flex-0 large-btn-flex mob:flex-1 border border-white !rounded-[0.6px]"
-                  style={{ borderWidth: '0.5px' }}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    const route = Object.entries(projectRoutes).find(([key]) => 
-                      key.toLowerCase() === item.title.toLowerCase()
-                    )?.[1] || '/projects';
-                    navigate(route);
-                  }}
-                >
-                  Explore More
-                </Button>
+                  <Button
+                    variant="dark"
+                    className="shadow-md lg:min-w-[180px] sm:flex-1 lg:flex-0 large-btn-flex mob:flex-1 border border-white rounded-[6px]"
+                    style={{ borderWidth: '0.5px' }}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      const route = Object.entries(projectRoutes).find(([key]) => 
+                        key.toLowerCase() === item.title.toLowerCase()
+                      )?.[1] || '/projects';
+                      navigate(route);
+                    }}
+                  >
+                    Explore More
+                  </Button>
                   <Button
                     variant="light"
                     className="shadow-md lg:min-w-[180px] sm:flex-1 lg:flex-0 large-btn-flex mob:flex-1"
@@ -112,7 +116,6 @@ const ExploreSlider = ({ data }) => {
         ))}
       </div>
 
-      {/* Custom Pagination - Logic is updated to control the Keen Slider instance */}
       <div className="custom-pagination mt-6 sm:mt-8 flex justify-center gap-2">
         {projects.map((_, index) => (
           <button

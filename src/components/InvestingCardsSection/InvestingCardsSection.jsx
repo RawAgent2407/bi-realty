@@ -17,14 +17,14 @@ const InvestingCardsSection = ({ data }) => {
 
           {/* Hide button for screens less than 1280px */}
           <Button variant="dark-outline" className="dont-show-inlarge lg:block">
-            <Link to="/projects">Explore More</Link>
+            <Link to="/blog">Explore More</Link>
           </Button>
         </div>
 
         {/* Blog Cards */}
         <div className="grid grid-cols-1 gap-[32px] lg:grid-cols-3">
           {cards.map((card, idx) => (
-            <div key={idx} className="overflow-hidden">
+            <Link to={`/blog/${idx + 1}`} key={idx} className="block overflow-hidden hover:opacity-90 transition-opacity">
               {/* Image */}
               <div className="h-56 sm:h-[280px] md:h-72 overflow-hidden">
                 <img
@@ -43,14 +43,14 @@ const InvestingCardsSection = ({ data }) => {
                   {card.description}
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
         {/* Button only for sm screens below blog cards */}
         <div className="block lg:hidden mt-8 text-center">
           <Button variant="dark-outline">
-            <Link to="/projects">Explore More</Link>
+            <Link to="/blog">Explore More</Link>
           </Button>
         </div>
       </div>
