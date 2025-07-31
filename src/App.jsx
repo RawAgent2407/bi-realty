@@ -11,6 +11,8 @@ import RajpathGrand from './pages/Projects/RajpathGrand';
 import RajpathEnclave from './pages/Projects/RajpathEnclave';
 import GreenCity from './pages/Projects/GreenCity';
 import NotFound from './pages/NotFound/NotFound';
+import Admin from './pages/admin/admin';
+import ChatBubblePopup from './components/ChatBubblePopup';
 
 function App() {
   return (
@@ -27,9 +29,11 @@ function App() {
           element={<SingleBlog blogsData={blogsData} />}
         />
         <Route path="/about" element={<About />} />
+        <Route path="/admin" element={<Admin />} />
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <ChatBubblePopup/>
     </BrowserRouter>
   )
 }

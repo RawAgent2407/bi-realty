@@ -88,14 +88,13 @@ const HeroSlider = ({ data }) => {
                 </h2>
 
                 <p
-                  className="
-    lg:text-center capitalize font-[Onest] font-normal
-    text-[0.875rem] leading-[1.25rem] tracking-[0.02em]
-    text-white max-w-2xl mb-6
- sm:text-left
-  mob:text-[0.9rem]
-    mob:text-left
-    "
+                  className="lg:text-center capitalize font-[Onest] font-normal
+                            text-[0.875rem] leading-[1.25rem] tracking-[0.02em]
+                            text-white max-w-2xl mb-6
+                        sm:text-left
+                          mob:text-[0.9rem]
+                            mob:text-left
+                            "
                 >
                   {slide.subtitle}
                 </p>
@@ -105,7 +104,7 @@ const HeroSlider = ({ data }) => {
                   variant="dark"
                   className="!bg-[#161616] !text-white !rounded-[6px] border border-white"
                 >
-                  <Link to="/projects">Explore More</Link>
+                  <Link to="/about">Explore More</Link>
                 </Button>
 
                   <Button variant="light" className="!bg-[#ffffff] !text-[#161616] !rounded-[6px]">

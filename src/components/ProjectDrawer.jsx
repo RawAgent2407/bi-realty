@@ -34,11 +34,11 @@ const ProjectDrawer = ({ data, onClose }) => {
               href="#contact"
               className="group text-sm font-medium text-gray-800 hover:text-black flex items-center justify-between gap-2"
             >
-              <Link to="/projects">Explore More</Link>
-              <ArrowForwardIcon
+              {/* <Link to="/projects">Explore More</Link> */}
+              {/* <ArrowForwardIcon
                 sx={{ fontSize: 16 }}
                 className="transition-transform group-hover:translate-x-1"
-              />
+              /> */}
             </a>
             <a
               href="#contact"
@@ -111,7 +111,7 @@ const ProjectDrawer = ({ data, onClose }) => {
         </div>
 
         {/* Right "More" Link */}
-        <div className="ml-auto mt-2 h-full mt-auto">
+        {/* <div className="ml-auto mt-2 h-full mt-auto">
           <a
             href="#"
             className="group flex items-center gap-1 text-sm font-semibold text-gray-800 hover:text-black"
@@ -124,7 +124,7 @@ const ProjectDrawer = ({ data, onClose }) => {
               />
             </Link>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   )
