@@ -55,7 +55,7 @@ const FutureHomeSection = ({ data }) => {
             <img
               src={
                 features?.[0]?.image ||
-                'https://raw.githubusercontent.com/KHUNTPRIYANSH/site_photos/refs/heads/main/bi-reality/hero-slide-1.png'
+                '/images/photos/home/vt.jpg'
               }
               alt={title}
               className="w-full h-full object-cover"
