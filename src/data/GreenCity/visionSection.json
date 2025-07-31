@@ -1,13 +1,13 @@
 {
   "title": "Step into Tomorrow Today",
   "description": "Discover how RAV Green City is redefining smart living with real-time progress, connectivity, and a thriving community across its phases.",
-  "bgImg": "/images/photos/projects/gc/2.jpeg",
+  "bgImg": "https://raw.githubusercontent.com/RawAgent2407/bi-realty/main/public/images/photos/projects/gc/2.jpeg",
   "visionPoints": [
     {
       "id": 1,
       "title": "Smart Cities",
       "description": "Building intelligent urban spaces with integrated technology",
-      "image": "/images/photos/projects/gc/2.jpeg"
+      "image": "https://raw.githubusercontent.com/RawAgent2407/bi-realty/main/public/images/photos/projects/gc/2.jpeg"
     },
     {
       "id": 2,

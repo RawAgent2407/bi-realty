@@ -12,7 +12,7 @@
           "name": "Urban Heights",
           "location": "Dholera SIR",
           "type": "Apartment Complex",
-          "image": "/images/photos/home/sc/dmic.jpeg"
+          "image": "https://raw.githubusercontent.com/RawAgent2407/bi-realty/main/public/images/photos/home/sc/dmic.jpeg"
         }
       ]
     },
@@ -26,7 +26,7 @@
           "name": "Business Park",
           "location": "DMIC Corridor",
           "type": "Office Complex",
-          "image": "/images/photos/home/sc/lothal.jpeg"
+          "image": "https://raw.githubusercontent.com/RawAgent2407/bi-realty/main/public/images/photos/home/sc/lothal.jpeg"
         }
       ]
     },
@@ -40,7 +40,7 @@
           "name": "Business Park",
           "location": "DMIC Corridor",
           "type": "Office Complex",
-          "image": "/images/photos/home/sc/dtc.jpeg"
+          "image": "https://raw.githubusercontent.com/RawAgent2407/bi-realty/main/public/images/photos/home/sc/dtc.jpeg"
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "title": "Explore the Enclave in Motion",
   "description": "See how Rajpath Grand is shaping the future  through real visuals of progress, infrastructure, and community growth across both phases.",
-  "bgImg": "/images/photos/projects/rg/2.jpeg",
+  "bgImg": "https://raw.githubusercontent.com/RawAgent2407/bi-realty/main/public/images/photos/projects/rg/2.jpeg",
   "visionPoints": [
     {
       "id": 1,

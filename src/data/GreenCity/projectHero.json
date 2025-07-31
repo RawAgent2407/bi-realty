@@ -2,7 +2,7 @@
   "title": "Green City",
   "subtitle": "Your dream home in Dholera Smart City is within reach. Secure your plot today and take the first step toward a brighter future.",
   "description": "",
-  "img": "/images/photos/projects/gc/1.jpeg",
+  "img": "https://raw.githubusercontent.com/RawAgent2407/bi-realty/refs/heads/main/public/images/photos/projects/gc/1.jpeg",
   "stats": [
     {
       "id": 1,

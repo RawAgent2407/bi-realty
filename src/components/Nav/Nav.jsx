@@ -93,7 +93,7 @@ const Nav = ({ data }) => {
   // Handle window resize
   useEffect(() => {
     const handleResize = () => {
-      const isBlogPage = location.pathname === '/blog'
+      const isBlogPage = location.pathname === '/blog' || location.pathname.startsWith('/blog/')
 
       if (isBlogPage) {
         // Blog page - always white with dark text
